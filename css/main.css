@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+    background: url("../icon/1.png") no-repeat,
+    url("../icon/2.png") no-repeat,
+    url("../icon/3.png") no-repeat,
+    url("../icon/4.png") no-repeat,
+    url("../icon/5.png") no-repeat,
+    url("../icon/6.png") no-repeat,
+    url(../icon/road.jpg) repeat;
+    background-size: auto 15%, auto 15%, auto 15%,
+    auto 15%, auto 15%, auto 15%, auto 32%;
+    background-position: top 10% left 5%, top 30% left 5%,
+    top 45% left 5%, top 65% left 5%, top 80% left 5%, top 55% left -160%, top 10% left 5%;
+    transition: all 10s ease-in-out;
+}
+
+div:hover {
+    background-position: top 10% left 110%, top 30% left 85%,
+    top 45% left 55%, top 65% left 65%, top 80% left 90%, top 55% left 280%, top 10% left -2300%;
+}
